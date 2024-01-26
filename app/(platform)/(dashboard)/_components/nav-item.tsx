@@ -101,7 +101,7 @@ export const NavItem = ({
             size="sm"
             onClick={() => onClick(route.href)}
             className={cn(
-              "w-full font-normal justify-start pl-10 mb-1",
+              "w-full font-normal justify-start pl-10 mb-1 hover:bg-neutral-200",
               pathname === route.href && "bg-sky-500/10 text-sky-700"
             )}
             variant="ghost"
