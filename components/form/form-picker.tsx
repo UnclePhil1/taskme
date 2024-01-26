@@ -32,7 +32,7 @@ export const FormPicker = ({
       try {
         const result = await unsplash.photos.getRandom({
           collectionIds: ["317099"],
-          count: 9,
+          count: 18,
         });
 
         if (result && result.response) {
