@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import localFont from "next/font/local";
 
 import { cn } from "@/lib/utils";
@@ -11,18 +10,12 @@ const headingFont = localFont({
 export const Logo = () => {
   return (
     <Link href="/">
-      <div className="hover:opacity-75 transition items-center gap-x-2 hidden md:flex">
-        <Image
-          src="/logo.svg"
-          alt="Logo"
-          height={30}
-          width={30}
-        />
+      <div className="hover:opacity-75 transition items-center justify-center gap-x-2 hidden md:flex">
         <p className={cn(
-          "text-lg text-neutral-700 pb-1",
+          "text-lg text-neutral-700 py-auto my-auto",
           headingFont.className,
         )}>
-          Taskify
+          TaskMe
         </p>
       </div>
     </Link>
