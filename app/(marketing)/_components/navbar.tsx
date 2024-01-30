@@ -14,7 +14,7 @@ export const Navbar = () => {
               Login
             </Link>
           </Button>
-          <Button size="sm" asChild>
+          <Button size="sm" asChild className="bg-blue-500 hover:bg-blue-600">
             <Link href="/sign-up">
               Get TaskMe for free
             </Link>
